@@ -1,0 +1,331 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "name": "user",
+      "mobilenumber": "1234567890",
+      "useremail": "user1@gmail.com",
+      "userpass": "user1$123"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "name": "user",
+      "useremail": "user2@gmail.com",
+      "userpass": "user2$123",
+      "mobilenumber": "1234567890"
+    },
+    {
+      "id": "3",
+      "username": "user3",
+      "name": "user",
+      "useremail": "user3@gmail.com",
+      "userpass": "user3$123",
+      "mobilenumber": "1234567890"
+    },
+    {
+      "username": "common1",
+      "useremail": "wgwrg@3qt4we",
+      "userpass": "Common123",
+      "name": "coomon1",
+      "mobilenumber": "8766897463",
+      "id": "EmPsnBb"
+    },
+    {
+      "username": "common2",
+      "useremail": "common2@gmail.com",
+      "userpass": "Common123",
+      "name": "common2",
+      "mobilenumber": "7777777777",
+      "id": "_xOV2LN"
+    },
+    {
+      "username": "common4",
+      "useremail": "ddd@fff",
+      "userpass": "Common123",
+      "name": "common4",
+      "mobilenumber": "8766897462",
+      "id": "JM9hR1K"
+    },
+    {
+      "username": "subodh12",
+      "useremail": "fefef@erg",
+      "userpass": "Common123",
+      "name": "subodh12",
+      "mobilenumber": "8766897465",
+      "id": "wYFnk6j"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "username": "user1",
+      "blogtitle": "food",
+      "blogimg": "../../images/food.jpg",
+      "blogcontents": "Biryani is a mixed rice dish with its origins among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat, and sometimes, in addition, eggs and/or potatoes in certain regional varieties. Biryani is popular throughout the Indian subcontinent, as well as among its diaspora.",
+      "blogcategory": "food"
+    },
+    {
+      "username": "common1",
+      "blogtitle": "fashion",
+      "blogimg": "../../images/fashion.jpg",
+      "blogcontents": "Every year when Winter comes around, I always find myself unbelievably prepared. I forget where I stored my winter coat, I forget that I need to start my car in advance to warm it up, and I almost always end up with frostbite because yes, I forgot to buy a pair of gloves. This year, I'm not letting that happen to me or to our beloved Who What Wear readers. Winter is coming, and we need to start getting ready ASAP, no excuses.To get prepared, we dug through the internet and rounded up gloves that are not only cozy but stylish, too. From cashmere mittens to leather gloves that won't get in the way of your texting, there's an option in here for you. What are you waiting for? Scroll to shop.",
+      "blogcategory": "fashion",
+      "id": "2"
+    },
+    {
+      "username": "common1",
+      "blogtitle": "Technolgy",
+      "blogimg": "../../images/technology.jpg",
+      "blogcontents": "Apple's single stop for family account management is Family Sharing—besides yourself, you can add up to five other people, kids or otherwise, and then share everything from Apple Music to purchased apps to iCloud storage. Children age 13 and over can have their own Apple ID. For younger children, you can create and manage an Apple ID for them. To get started with Family Sharing, open Settings on an iPhone or iPad, tap your Apple ID name, then choose Family Sharing and Set Up Your Family. If you're on a Mac, open up System Preferences, then choose Family Sharing. Follow the instructions to invite people to your family or set up the necessary Apple IDs for your youngsters.With your family created, services such as Apple TV Plus, Apple Music, Apple News Plus, and Apple Arcade are shared automatically if you've subscribed to them. Any iCloud storage you've purchased is pooled between family members, and Photos automatically creates a shared album for everyone to use. Most of this happens without any effort on your part—when people in your family sign into their Apple account, they'll see the same apps and services available as you do.",
+      "blogcategory": "technolgy",
+      "id": "3"
+    },
+    {
+      "username": "common1",
+      "blogtitle": "travel",
+      "blogimg": "../../images/travel.jpg",
+      "blogcontents": "Canada is home to some of the most pristine and unspoiled landscapes in the world. One of the country’s most scenic regions is the Yukon. In this guest post, writer Ethan Jakob Craft shares his tips and advice to help you road trip the region on a budget.Tucked away in Canada’s northwestern corner is the Yukon Territory, a veritable paradise home to just 35,000 people and endless top-notch wilderness. The Yukon is dominated by thick boreal forest in the south and treeless tundra in the north and dotted with rugged peaks and lakeside beaches in between.I first visited the territory at age 7 as a half-day shore excursion on an Alaskan cruise (yes, the border really is that close), and didn’t know what to make of it. But returning as an adult, it blew my expectations away.",
+      "blogcategory": "travel",
+      "id": "4"
+    },
+    {
+      "username": "common1",
+      "blogtitle": "business",
+      "blogimg": "../../images/business.jpg",
+      "blogcontents": "As a startup business, the quest for survival and growth is not easy. You’re probably attempting to grow your business with little resources too, and you’re not alone as most startups are also strapped for cash flow and investment.Many areas of the business are vying for what little cash resource you have so deal with this challenge by prioritizing where to put your money. Getting found online to compete with other small and big companies for the attention of consumers is a great place to start.Luckily, there are many tactics out there for startup businesses to encourage customer support through response programs. In this article, we look at five examples of response programs that can really make a huge difference to new businesses quest for customers!Small businesses can develop deep and meaningful connections with their customers. This is often done through personal communication and creating useful content. Your customer will appreciate it if you build meaningful relationships with them Did you know? Almost 90% of people use customer service as a deciding factor when evaluating a company. It’s worth the effort.Become a leader in your market with content that goes the extra mile with your customers.  This is a strategy that not only pulls customers to your website but also leaves them with the knowledge that your business is there to make their life easier and more enjoyable.",
+      "blogcategory": "business",
+      "id": "5"
+    },
+    {
+      "username": "common1",
+      "blogtitle": "fitness",
+      "blogimg": "../../images/fitness.jpg",
+      "blogcontents": "This superhero-inspired circuit workout uses a suspension trainer, features eight exercises performed as a circuit and takes about 25 minutes to complete. Repeat the circuit three times using work sets of 30 seconds and rest/transition of 20 seconds. Add a couple of minutes if you prefer to take a one-minute break at the end of each circuit.Start with mid-length straps, facing in toward anchor. Alternate the front and back arm on each repetition. The end position should feature the forearms crisscrossed across the chest. Keep the chest lifted throughout rather than rounded forward.",
+      "blogcategory": "fitness",
+      "id": "6"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "blogid": "2",
+      "commentby": "user2",
+      "commentcontent": "wowwwwwwwwwwww"
+    },
+    {
+      "id": "1",
+      "blogid": "2",
+      "commentby": "user3",
+      "commentcontent": "wowwwwwwwwwwww from user3"
+    },
+    {
+      "blogid": "2",
+      "commentby": "user111111",
+      "commentcontent": "eiufwrikgrwjgbrwgrvvvvvvvvvvvvvvvvvvvvvvvvv",
+      "id": "FVUZXY1"
+    },
+    {
+      "blogid": "2",
+      "commentby": "user111111",
+      "commentcontent": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+      "id": "vg90kwR"
+    },
+    {
+      "blogid": "2",
+      "commentby": "user111111",
+      "commentcontent": "dddddddddddddddddddddddd",
+      "id": "NConb2C"
+    },
+    {
+      "blogid": "2",
+      "commentby": "user111111",
+      "commentcontent": "dddddddddddddddddddddddd",
+      "id": "0a_HFqB"
+    },
+    {
+      "blogid": "2",
+      "commentby": "user111111",
+      "commentcontent": "ddddddddddddddddddddddddddddddd",
+      "id": "RdMJkUH"
+    },
+    {
+      "blogid": "2",
+      "commentby": "user111111",
+      "commentcontent": "xxxxxx",
+      "id": "rkFnTp2"
+    },
+    {
+      "blogid": "1",
+      "commentby": "user111111",
+      "commentcontent": "rrrrrrrrrrrrrrrrrrrrr",
+      "id": "wMsFXj3"
+    },
+    {
+      "blogid": "1",
+      "commentby": "common1",
+      "commentcontent": "wgwrgrwgwrgrwgrw",
+      "id": "JjOJpfY"
+    },
+    {
+      "blogid": "2",
+      "commentby": "common1",
+      "commentcontent": "xxx",
+      "id": "NrgQx_F"
+    },
+    {
+      "blogid": "1",
+      "commentby": "common1",
+      "commentcontent": "4wt42wt4tyg35",
+      "id": "ea_iXAY"
+    },
+    {
+      "blogid": "bh7w18j",
+      "commentby": "common1",
+      "commentcontent": "worth reading..",
+      "id": "_zfqqPw"
+    },
+    {
+      "blogid": "2",
+      "commentby": "common1",
+      "commentcontent": "fwergwrgwrg",
+      "id": "6VIQOtT"
+    },
+    {
+      "blogid": "1",
+      "commentby": "common1",
+      "commentcontent": "comment 3 from common1",
+      "id": "IhDFL9d"
+    },
+    {
+      "blogid": "5",
+      "commentby": "common1",
+      "commentcontent": "comment by common1 in business",
+      "id": "Hb-IO2f"
+    },
+    {
+      "blogid": "3",
+      "commentby": "common2",
+      "commentcontent": "comment by common2",
+      "id": "_4PF99E"
+    },
+    {
+      "blogid": "2",
+      "commentby": "common1",
+      "commentcontent": "feqfgwerg",
+      "id": "h-qiQUC"
+    },
+    {
+      "blogid": "3",
+      "commentby": "common1",
+      "commentcontent": "really good ",
+      "id": "TZ8kBP2"
+    },
+    {
+      "blogid": "1",
+      "commentby": "subodh12",
+      "commentcontent": "good",
+      "id": "v1vHmEI"
+    },
+    {
+      "blogid": "1",
+      "commentby": "subodh12",
+      "commentcontent": "aegergrsg",
+      "id": "08Sh0m5"
+    },
+    {
+      "blogid": "2",
+      "commentby": "subodh12",
+      "commentcontent": "efefeqwfeqw",
+      "id": "10qtKuB"
+    }
+  ],
+  "likes": [
+    {
+      "blogid": "2",
+      "username": "user1",
+      "id": "1"
+    },
+    {
+      "blogid": "2",
+      "username": "user2",
+      "id": "2"
+    },
+    {
+      "blogid": "1",
+      "username": "user1",
+      "id": "3"
+    },
+    {
+      "blogid": "1",
+      "username": "common1",
+      "id": "iMzvFjL"
+    },
+    {
+      "blogid": "4",
+      "username": "common1",
+      "id": "yqou1dm"
+    },
+    {
+      "blogid": "bh7w18j",
+      "username": "common1",
+      "id": "k75lILb"
+    },
+    {
+      "blogid": "2",
+      "username": "common1",
+      "id": "T-eh-Yw"
+    },
+    {
+      "blogid": "5",
+      "username": "common1",
+      "id": "GcYjcdz"
+    },
+    {
+      "blogid": "3",
+      "username": "common2",
+      "id": "BsTl9mM"
+    },
+    {
+      "blogid": "1",
+      "username": "common2",
+      "id": "_6GOZA7"
+    },
+    {
+      "blogid": "1",
+      "username": "common1",
+      "id": "sECuVUI"
+    },
+    {
+      "blogid": "3",
+      "username": "common1",
+      "id": "Qk4keUp"
+    },
+    {
+      "blogid": "1",
+      "username": "common4",
+      "id": "wrf2tt3"
+    },
+    {
+      "blogid": "6",
+      "username": "common1",
+      "id": "3alf5ga"
+    },
+    {
+      "blogid": "1",
+      "username": "subodh12",
+      "id": "xxex2jM"
+    },
+    {
+      "blogid": "4",
+      "username": "subodh12",
+      "id": "wNFPd9P"
+    },
+    {
+      "blogid": "2",
+      "username": "subodh12",
+      "id": "nW7hEi7"
+    }
+  ]
+}

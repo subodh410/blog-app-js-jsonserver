@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="http://example.com/myicon.ico" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="mainContent">
+      <!-- login form  -->
+      <form class="form" action="../userhomepage/userhome.html">
+        <div class="containet text-center text-white headerset">
+          <h1 class="text-center">Login</h1>
+        </div>
+        <!-- user name field -->
+        <label>
+          <p class="label-txt">ENTER YOUR USER NAME</p>
+          <input
+            type="text"
+            class="input text-warning"
+            id="username"
+            name="username"
+            autocomplete="off"
+          />
+          <!-- animation of border bottom -->
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+          <span> </span>
+        </label>
+        <!-- password field  input type is kept as password-->
+        <label>
+          <p class="label-txt">ENTER YOUR PASSWORD</p>
+          <input
+            type="password"
+            class="input text-warning"
+            id="password"
+            name="password"
+            autocomplete="off"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <!-- submit button -->
+        <button type="submit" class="btn btn-warning text-white btn-lg" id="login_user">
+          Login
+        </button>
+        <br />
+        <!-- if user not register then go to registration page -->
+        <span class="newUserSpan text-white"> Don't have an account?</span>
+        <a href="../register/registration.html">Sign Up</a>
+
+        <label id="valid"></label>
+      </form>
+    </div>
+
+   
+
+    <script src="login.js"></script>
+    <script src="../register/validation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "blog-itfinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass homepage/scss/ -o homepage/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC"
+}

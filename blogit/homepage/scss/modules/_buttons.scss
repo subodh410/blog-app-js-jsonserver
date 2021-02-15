@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@mixin font($font-size,$font-family,$color) {
+    font-size: $font-size;
+    font-family: $font-family;
+    color: $color;
+}
+.bgimg{
+    background-image: $bg-image;
+    background-size: $bg-size;
+    background-attachment: $bg-attach;
+    width: $bg-img-width;
+    height: $bg-img-height;
+}
+.dropdown-menu li a:hover{
+    color: red;
+}
+.bg-content{
+    background-color: #d9d9d9;
+    
+}
+
+.collapse ul li .search input{
+    padding:5px;
+    border-radius:10px ;
+    .collapse ul li :hover{
+        background-color: orange;
+    }
+}
+
+#nohover:hover{
+    background-color:black
+}
+
+
+.headerset{
+    padding-top: $header-p-top;
+    box-sizing: border-box;
+    h2{
+        @include font($header-h2-font-size, $h2-font-family, $h2-color);
+        margin-bottom: 10px;
+        animation: flicker 1.5s infinite alternate;   
+    }
+    @keyframes flicker {
+    
+        0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+            text-shadow:-0.2rem -0.2rem 1rem #fff,0.2rem 0.2rem 1rem #fff,0 0 2rem $shadow-color,0 0 4rem $shadow-color,0 0 6rem $shadow-color,0 0 8rem $shadow-color,0 0 10rem $shadow-color;  
+        }
+        20%, 24%, 55% {        
+            text-shadow: none;
+            box-shadow: none;
+        }    
+    }
+    h4{
+        @include font($header-h1-font-size, $h4-font-family, $h4-color);
+    }
+    button{
+        background-color: transparent;
+        margin-top: 30px;
+        border-width: 3px;
+        border-radius: 50px;
+        transition: all .15s ease-in-out;
+    }
+    button:hover{
+        box-shadow: 0 0 10px 0 #ffcc00 inset, 0 0 20px 2px #ffcc00;
+        border: 3px solid #ffcc00;
+        background-color: transparent;
+    }
+    
+}
+.dropdown .dropdown-menu{
+    background-color: #333333;
+    li a{
+        padding-left:20px;
+        color: white;
+    }
+}
+.shadow{
+    box-shadow:inset 10 0 0px #000000;
+}
+.blogs_container{
+    padding:$blog-padding;
+    height:$blog-height;
+   
+}
+.rowsetting{
+    margin: 80px 0px !important;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    h5{
+        margin-top: 20px;
+    }
+    img{
+        height: 300px;
+        width: 300px;
+    }
+    img:hover{
+        transform: scale(1.1);
+        transition: .3s ease-in-out;
+    }
+    button{
+        margin-bottom: 20px;
+        background-color: transparent;
+        border: 3px solid #ff0251;
+        color: #ff0251;
+        transition: .3s; 
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    }
+    button:hover{
+        animation: pulse 1s infinite;
+        transition: .3s;
+        background-color: cornsilk;
+    }
+    @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        70% {
+          transform: scale(.9);
+        }
+          100% {
+          transform: scale(1);
+        }
+      }
+      
+    .column{
+        border: 1px solid #d9d9d9;
+        h6{
+            font-style: italic;
+        }
+    }    
+}
+.navbar-toggle{
+    display: none;
+    .navbar-toggle-icon{
+        background-color: black;
+    }
+}
+.search-section {
+    padding: 20px;
+    .search { 
+        #term{
+            padding: 10px;
+            width: 30%;
+        }
+    }
+    #search{
+        padding: 10px;
+    }
+}
+@media(min-width:992px){
+
+}
+@media(min-width:768px)and(max-width:991px){
+
+}
+@media(min-width:575px)and(max-width:767px){
+    .navbar-toggle{
+        display: block;       
+    }
+}
+@media(min-width:480px)and(max-width:574px){
+    .headerset h2{
+        font-size: 22px;
+    }
+    .headerset h4{
+        font-size: 42px;
+    }
+    .blogs{
+        height: 2400px;
+    }
+    .bgimg{
+        height: 760px;
+    }
+    .navbar-toggle{
+        display: block;
+    }
+    footer{
+        position: relative;
+        top:1000px;
+    }
+}
+@media(max-width:479px){
+    .headerset h2{
+        font-size: 22px;
+    }
+    .headerset h1{
+        font-size: 42px;
+    }
+    
+}

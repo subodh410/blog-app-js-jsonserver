@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="image/jpg" href="../../images/logo.png"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Blog It</title>
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="shortcut icon" href="http://example.com/myicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="bgimg">
+      <!-- user home nav -->
+
+      <!-- Actual nav- main home page -->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+          <img src="../../images/logo.png" height="70px" width="70px" alt="error in loading img" />
+          <a href="" class="navbar-brand brand text-warning font-weight-bold"
+            >Blog It</a
+          >
+          <button
+            class="navbar-toggle"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsenavbar"
+          >
+            <span class="navbar-toggle-icon">
+              <i class="material-icons" style="font-size: 30px; color: white"
+                >menu</i
+              >
+            </span>
+          </button>
+
+          <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">HOME</a>
+              </li>
+              <!--<li class="nav-item">
+                <a href="#" class="nav-link text-white">CATEGORIES</a>
+              </li>-->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  data-toggle="dropdown"
+                  href="#"
+                  >CATEGORIES<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" id="technolgy">Technology</a></li>
+                  <li><a href="#" id="food">Food</a></li>
+                  <li><a href="#" id="art">Art</a></li>
+                  <li><a href="#" id="fashion">Fashion</a></li>
+                  <li><a href="#" id="music">Music</a></li>
+                  <li><a href="#" id="lifestyle">Lifestyle</a></li>
+                  <li><a href="#" id="fitness">Fitness</a></li>
+                  <li><a href="#" id="sports">Sports</a></li>
+                  <li><a href="#" id="travel">Travel</a></li>
+                  <li><a href="#" id="finance">Finance</a></li>
+                  <li><a href="#" id="business">Business</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="../../AboutUs/about.html" class="nav-link text-white">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a href="../../login/login.html" class="nav-link text-white"
+                  >SIGN IN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../../register/registration.html"
+                  class="nav-link text-white"
+                  >SIGN UP</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Actual button on main home page -->
+      <div class="container text-center text-white headerset" id="blog-Btn">
+        <h2>Welcome to blog it</h2>
+        <h4>Unleash your potential</h4>
+        <button class="btn btn-warning text-white btn-lg" id="btn-x">
+          <a href="../../login/login.html" class="nav-link text-white"
+            >CREATE BLOG</a
+          >
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-content">
+      <div class="search-section">
+        <form class="search">
+          <input type="text" name="term" placeholder="search text" id="term"/>
+          <input type="submit" value="search" id="search" />
+        </form>
+      </div>
+
+      <section class="container blogs text-center bg-light">
+        <div
+          class="row rowsetting row-cols-1 row-cols-md-2 blog shadow"
+          id="blogs_container"
+        ></div>
+      </section>
+    </div>
+
+    <footer class="container-fluid bg-dark text-center text-white">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4">
+            <h4>About Us</h4>
+            You can use the mark tag to Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Voluptatum rem, quos, eaque aspernatur neque
+            magni, dolores nobis impedit placeat officiis sunt aliquid molestiae
+            tempore nostrum recusandae explicabo quod autem ullam. text.
+          </div>
+          <div class="col mb-4">
+            <h4>Contact Us</h4>
+
+            <i class="fa fa-map-marker fa-2x left-side" aria-hidden="true"></i>
+            <br />
+            Survey No. 13A/ 1,2,3/1, Cybage Towers, <br />
+            Adarsh Nagar, Wadgaon Sheri, Pune, Maharashtra 411014 <br />
+            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+            <br />
+            020-6604-1700
+          </div>
+          <div class="col mb-4">
+            <h4>Follow Us</h4>
+
+            <em class="fa fa-facebook-square fa-2x" aria-hidden="true"></em>
+            <em class="fa fa-twitter-square fa-2x" aria-hidden="true"></em>
+            <em class="fa fa-git-square fa-2x" aria-hidden="true"></em>
+            <em class="fa fa-google-plus-square fa-2x" aria-hidden="true"></em>
+          </div>
+        </div>
+      </div>
+      All rights are reserved &copy; Blog It
+    </footer>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

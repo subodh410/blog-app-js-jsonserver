@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "name": "user",
+      "mobilenumber": "1234567890",
+      "useremail": "user1@gmail.com",
+      "userpass": "user1$123"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "name": "user",
+      "useremail": "user2@gmail.com",
+      "userpass": "user2$123",
+      "mobilenumber": "1234567890"
+    },
+    {
+      "id": "3",
+      "username": "user3",
+      "name": "user",
+      "useremail": "user3@gmail.com",
+      "userpass": "user3$123",
+      "mobilenumber": "1234567890"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "2",
+      "blogtitle": "blog1",
+      "blogimg": "../../img/chickenbiryani.jpg",
+      "blogcontents": "Biryani is a mixed rice dish with its origins among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat, and sometimes, in addition, eggs and/or potatoes in certain regional varieties. Biryani is popular throughout the Indian subcontinent, as well as among its diaspora.",
+      "blogcategory": "food",
+      "comments": [
+        {
+          "commentby": "",
+          "commentcontent": ""
+        }
+      ],
+      "likedby": [],
+      "likecount": "3"
+    },
+    {
+      "id": "4",
+      "blogtitle": "blog1",
+      "blogimg": "../../img/chickenloli.jpg",
+      "blogcontents": "Chicken lollipop is an hors d'oeuvre popular in Indo-Chinese cuisine. Chicken lollipop is, essentially a frenched chicken winglet, wherein the meat is cut loose from the bone end and pushed down creating a lollipop appearance. It is usually served hot with Szechuan sauce.",
+      "blogcategory": "food",
+      "comments": [
+        {
+          "commentby": "",
+          "commentcontent": ""
+        }
+      ],
+      "likedby": [],
+      "likecount": "0"
+    },
+    {
+      "id": "2",
+      "blogtitle": "blog1",
+      "blogimg": "../../img/chickenbiryani.jpg",
+      "blogcontents": "Biryani is a mixed rice dish with its origins among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat, and sometimes, in addition, eggs and/or potatoes in certain regional varieties. Biryani is popular throughout the Indian subcontinent, as well as among its diaspora.",
+      "blogcategory": "food",
+      "comments": [
+        {
+          "commentby": "",
+          "commentcontent": ""
+        }
+      ],
+      "likedby": [],
+      "likecount": "3"
+    },
+    {
+      "id": "4",
+      "blogtitle": "blog4",
+      "blogimg": "../../img/chickenloli.jpg",
+      "blogcontents": "Chicken lollipop is an hors d'oeuvre popular in Indo-Chinese cuisine. Chicken lollipop is, essentially a frenched chicken winglet, wherein the meat is cut loose from the bone end and pushed down creating a lollipop appearance. It is usually served hot with Szechuan sauce.",
+      "blogcategory": "food",
+      "comments": [
+        {
+          "commentby": "",
+          "commentcontent": ""
+        }
+      ],
+      "likedby": [],
+      "likecount": "0"
+    },
+    {
+      "username": "user1",
+      "blogtitle": "cccccccccccccccc",
+      "blogimg": "ccccc",
+      "blogcontents": "<p>cfegbetntnry</p>",
+      "blogcategory": "cccccc",
+      "id": "bEd5spJ"
+    }
+  ]
+}

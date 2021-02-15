@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="http://example.com/myicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+   
+    <div class="mainContent">
+      <!-- back button to go back for login -->
+      <input
+        type="button"
+        class="text-warning"
+        id="registrationBack"
+        name="registrationBack"
+        value="Back"
+      />
+      <!-- form for registrations -->
+      <form class="form" action="../login/login.html">
+        <div class="containet text-center text-white headerset">
+          <!-- header of form -->
+          <h1>Registration</h1>
+        </div>
+        <label>
+          <!-- for name  -->
+          <p class="label-txt">ENTER YOUR NAME</p>
+          <input
+            type="text"
+            class="input"
+            id="name"
+            name="name"
+            autocomplete="off"
+          />
+          <!-- for border bottom anomation -->
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <!-- for mobile number -->
+          <p class="label-txt">ENTER MOBILE NUMBER</p>
+          <input
+            type="tel"
+            class="input"
+            id="number"
+            name="number"
+            autocomplete="off"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <!-- for email -->
+          <p class="label-txt">ENTER EMAIL-ID</p>
+          <input
+            type="email"
+            class="input"
+            id="email"
+            name="email"
+            autocomplete="off"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <!-- for username -->
+          <p class="label-txt">ENTER YOUR USERNAME</p>
+          <input
+            type="text"
+            class="input"
+            id="username"
+            name="username"
+            autocomplete="off"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <!-- for password -->
+          <p class="label-txt">ENTER YOUR PASSWORD</p>
+          <input
+            type="password"
+            class="input"
+            id="password"
+            name="password"
+            autocomplete="off"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <!-- for confirm password -->
+          <p class="label-txt">ENTER CONFIRM PASSWORD</p>
+          <input
+            type="password"
+            class="input"
+            id="confirmPass"
+            name="confirmPass"
+            autocomplete="off"
+          />
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <!-- signup button will lead to login page for login -->
+        <button type="submit" class="btn btn-warning" id="registeruser">SIGN-UP</button>
+      </form>
+    </div>
+
+    <script src="../login/login.js"></script>
+    <script src="validation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    width: 80vw;
+}
+form {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 auto;
+}
+h2 {
+  color: orange;
+}
+.editor {
+  margin: auto;
+}
+button {
+  margin: 30px;
+}
